@@ -1,10 +1,10 @@
 '''Alist = [a1,a2,...an]'''
+aslit = []
 def maxlist(aslit):
     a = aslit[0]
     for i in aslit:
 	if i > a:
-	    i = a 
+	    a = i 
     return a
 
-aslit = [ 1,3,5,7,9]
-print maxlist(aslit)
+print maxlist([1,3,5,7,9])
